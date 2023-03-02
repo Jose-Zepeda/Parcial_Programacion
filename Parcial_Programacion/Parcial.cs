@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 class Parcial
 {
@@ -9,13 +10,13 @@ class Parcial
             //Variables
 
             int numero,i=2;
-            long factorial = 1;
+            BigInteger factorial = 1;
 
             //Pedir al usuario ingresar un número
 
             Console.WriteLine("> Ingresa un número entero positivo mayor que 0: ");
             numero = int.Parse(Console.ReadLine());
-
+            
             //Ciclo  while cuando el número ingresado es menor a 0
 
             while (numero < 1)
