@@ -35,7 +35,7 @@ class Parcial
 
             //Imprimir en la pantalla todos los números enteros positivos menores o iguales a N divisibles entre 3
 
-            Console.Write("> Numeros menores o iguales a {0} que son divisibles entre 3:\n", numero);
+            Console.Write($"> Numeros menores o iguales a {numero} que son divisibles entre 3:\n");
 
             for (int j = 1; j <= numero; j++)
             {
@@ -47,7 +47,7 @@ class Parcial
 
             //Imprimir en la pantalla todos los números enteros positivos menores o iguales a N divisibles entre 5
 
-            Console.Write("> Numeros menores o iguales a {0} que son divisibles entre 5:\n", numero);
+            Console.Write($"> Numeros menores o iguales a {numero} que son divisibles entre 5:\n");
 
             for (int k = 1; k <= numero; k++)
             {
@@ -59,7 +59,7 @@ class Parcial
 
             //Imprimir una secuencia de numeros que comienze en 1 y se incremente en 2 hasta que sea mayor al numero ingresado
 
-            Console.Write("> Secuencia de números hasta que sea mayor a {0}:\n", numero);
+            Console.Write($"> Secuencia de números hasta que sea mayor a {numero}:\n");
 
             for (int l = 1; l < numero+2;l+=2)
             {
@@ -68,7 +68,7 @@ class Parcial
 
             //Imprimir el factorial del número
 
-            Console.Write("> Factorial de {0} = {1}",numero,factorial);
+            Console.Write($"> Factorial de {numero} = {factorial}");
 
             //Fin del programa
         } 
